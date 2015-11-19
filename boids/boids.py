@@ -15,6 +15,8 @@ from numpy.linalg import norm
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+from scipy.spatial.distance import squareform
+from scipy.spatial.distance import pdist
 
 width, height = 640, 480
 
